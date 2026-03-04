@@ -18,7 +18,7 @@ SonicPersona fine‑tunes a personalized text‑to‑speech (TTS) voice using **
 
 ```mermaid
 flowchart TD
-  A[Upload audio & transcripts] --> B[Convert MP4 -> WAV @ 22050Hz]
+  A[Upload audio & transcripts] --> B[Convert MP4 to WAV (22050 Hz)]
   B --> C[Whisper auto-transcription]
   C --> D[Create LJSpeech-style metadata.csv]
   D --> E[Load XTTS-v2 + LoRA adapters]
