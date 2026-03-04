@@ -14,21 +14,6 @@ SonicPersona fine‑tunes a personalized text‑to‑speech (TTS) voice using **
 
 ---
 
-## 🧠 Workflow Overview
-
-```mermaid
-flowchart TD
-  A[Upload audio & transcripts] --> B[Convert MP4 to WAV (22050 Hz)]
-  B --> C[Whisper auto-transcription]
-  C --> D[Create LJSpeech-style metadata.csv]
-  D --> E[Load XTTS-v2 + LoRA adapters]
-  E --> F[Fine-tune (fp16 + grad accumulation)]
-  F --> G[Save LoRA weights + speaker embeddings]
-  G --> H[Gradio interface for inference]
-```
-
----
-
 ## 📸 Preview
 ![SonicPersona UI](screenshot/Screenshot%202026-03-04%20155202.png)
 
