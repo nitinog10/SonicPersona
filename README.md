@@ -97,3 +97,8 @@ This project can clone voices. Use it **only with consent** and follow local law
 This project currently lives as a **Colab notebook workflow**.  
 If you’d like a Python CLI or packaged app, open an issue or request a PR.
 
+## Code Improvements Summary
+
+- **Regression Tests Added**: Implemented regression tests for `sonicpersona.py` to ensure stability and catch potential issues early.
+- **Utility Code Refactoring**: Identified shared utility code and suggested extraction into a dedicated module to reduce coupling and improve maintainability.
+- **Documentation Update**: Re-indexed and regenerated walkthroughs and diagrams following structural changes to maintain up-to-date documentation.
