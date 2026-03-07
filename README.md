@@ -97,8 +97,3 @@ This project can clone voices. Use it **only with consent** and follow local law
 This project currently lives as a **Colab notebook workflow**.  
 If you’d like a Python CLI or packaged app, open an issue or request a PR.
 
----
-
-## 📄 License
-
-No license file is included yet. Add one if you plan to distribute or reuse.
